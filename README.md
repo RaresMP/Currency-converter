@@ -16,5 +16,4 @@ The script calls the csv_reader function to read the csv file and stores the res
 The script prompts the user to enter the amount, the currency to convert from and the currency to convert to.
 
 The currency_converter function is called with the parameters from_currency, to_currency, amount and exchange_rate.
-
-If the currency_converter function returns a non-null value, the script prints the converted amount along with the currencies involved in the conversion.
+If the conversion is successful, the program prints the original amount, currency code and the converted amount and currency code to the console in the desired format.
