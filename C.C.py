@@ -44,7 +44,7 @@ def currency_converter(from_currency, to_currency, exchange_rate, amount):
     return converted_amount
 
 # Calling the csv_reader function to read the CSV file and store the exchange rates
-exchange_rates = csv_reader('C:/Users/rares/PycharmProjects/Python 101/convert.csv')
+exchange_rates = csv_reader('file_path')
 
 # Getting the input for the amount, currency to convert from, and currency to convert to
 amount_exchange = float(input("Enter the amount you want to convert: "))
