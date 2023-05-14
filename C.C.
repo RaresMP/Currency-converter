@@ -55,5 +55,5 @@ to_currency_exchanges = input("Enter the currency you want to convert to: ").upp
 convert_amount = currency_converter(from_currency_exchanges, to_currency_exchanges, exchange_rates, amount_exchange)
 
 # Printing the result
-if True:
+if convert_amount is not None:
     print(f"{amount_exchange:.2f} {from_currency_exchanges} = {convert_amount:.2f} {to_currency_exchanges}")
