@@ -1,5 +1,4 @@
-import sys
-import csv
+import sys,csv
 
 # Function to read a CSV file and store the currency codes and exchange rates as a dictionary
 def csv_reader(file):
